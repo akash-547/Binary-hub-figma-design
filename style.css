@@ -353,3 +353,64 @@ nav{
 .help-card1 a i {
     font-size: 14px; 
 }
+
+/* Footer Section */
+#footer-section {
+    background-color: #f9f9f9; /* Light background color */
+    padding: 40px 20px; /* Add padding for spacing */
+    font-family: Arial, sans-serif; /* Choose a font */
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between; /* Space out sections */
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+    gap: 20px; /* Space between sections */
+    max-width: 1200px; /* Limit width for better readability */
+    margin: 0 auto; /* Center the content */
+}
+
+.footer-about, .footer-contact, .footer-links {
+    flex: 1 1 200px; /* Allow sections to grow and shrink */
+}
+
+.footer-about h2, .footer-contact h3, .footer-links h3 {
+    font-size: 24px; /* Heading size */
+    color: #333; /* Dark text color */
+    padding-bottom: 10px; /* Space below heading */
+}
+
+.footer-about p {
+    font-size: 16px; /* Paragraph text size */
+    color: #666; /* Gray text color */
+    line-height: 1.5; /* Improve readability */
+}
+
+.footer-contact ul, .footer-links ul {
+    list-style: none; /* Remove default list styling */
+    padding: 0; /* Remove default padding */
+}
+
+.footer-contact li, .footer-links li {
+    font-size: 16px; /* Text size */
+    color: #666; /* Gray text color */
+    padding-bottom: 8px; /* Space between list items */
+}
+
+.footer-links a {
+    text-decoration: none; /* Remove underline from links */
+    color: #007BFF; /* Link color */
+    transition: color 0.3s ease; /* Smooth hover effect */
+}
+
+.footer-links a:hover {
+    color: #0056b3; /* Darker shade on hover */
+}
+
+.footer-copyright {
+    text-align: center; /* Center-align copyright text */
+    padding-top: 20px; /* Space above copyright */
+    font-size: 14px; /* Smaller text size */
+    color: #666; /* Gray text color */
+    border-top: 1px solid #ddd; /* Optional: Add a top border */
+}
